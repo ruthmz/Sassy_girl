@@ -22,3 +22,9 @@ $(document).on('turbolinks:load', function() {
   $('.dropdown-button').dropdown();
   $('select').material_select();
 });
+
+
+$(document).ready(function(){
+  $('.slider').slider();
+});
+    
