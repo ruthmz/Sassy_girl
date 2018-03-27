@@ -7,6 +7,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Oswald:400,500,600,700" rel="stylesheet">
 </head>
 
 <body>
@@ -15,12 +16,15 @@
     <%= render 'shared/navbar' %>
   </div>
 
+  <%= render 'shared/header' %>
+
   <%= render 'shared/messages' %>
 
   <div class="container">
     <%=yield%>
   </div>
 
+  <%= render 'shared/footer' %>
 </body>
 
 </html>

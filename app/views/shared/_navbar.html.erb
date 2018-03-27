@@ -1,20 +1,16 @@
-<nav>
-  <div class="nav-wrapper teal ">
-    <a href="#" class="brand-logo center">Logo</a>
-    <ul id=" nav-mobile" class="left ">
-      <%= link_to  "Home", unauthenticated_root_path %>
+<nav style="height: 100px;line-height: 100px;">
+  <div class="nav-wrapper white">
+    <a href="#" class="brand-logo center black-text"  style="font-size:2.5rem;font-family: 'Oswald', sans-serif;">ECOMMERCE</a>
+    <ul id="nav-mobile" class="left">
+      <%= link_to "HOME", unauthenticated_root_path %>
     </ul>
-    <ul id=" nav-mobile" class="left ">
-        <%= link_to  "Products", products_path %>
-      </ul>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li>
-        <a class="dropdown-button" href="#!" data-activates="dropdown1">
-        </a>
-      </li>
-      <li>
-        <a href="<%= new_user_session_path %>">Sign in</a>
-      </li>
+    <ul id="nav-mobile" class="left ">
+      <%= link_to "PRODUCTS", products_path %>
+    </ul>
+    <ul id="nav-mobile" class="right">
+      <li><a href="#">COLLECTIONS</a></li>
+      <li><a href="#">BRANDS</a></li>
     </ul>
   </div>
 </nav>
+

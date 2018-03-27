@@ -24,7 +24,13 @@ $(document).on('turbolinks:load', function() {
 });
 
 
-$(document).ready(function(){
-  $('.slider').slider();
-});
-    
+// $(document).ready(function(){
+//   $('.slider').slider();
+// });
+
+
+
+
+
+
+	
