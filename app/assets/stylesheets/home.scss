@@ -49,3 +49,17 @@ input:hover {
   border: crimson;
 
 }
+.display-none{
+  display: none;
+}
+
+#slide-out{
+  height: 100vh;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  background: #efefef;
+  width: 30%;
+  top: 0;
+}
+         
