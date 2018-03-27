@@ -9,6 +9,7 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
+require 'user'
 
 class Admin < ActiveRecord::Base
   has_one :user, as: :profile
