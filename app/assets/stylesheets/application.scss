@@ -11,8 +11,12 @@
  * file per style scope.
  *
  *= require home
+ *= require shared
  *= require alertify
  *= require default
  *= require_self
  */
- @import "materialize";
+
+  @import "materialize";
+  @import "materialize/extras/nouislider";
+  @import "home";

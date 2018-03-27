@@ -4,13 +4,48 @@
 
 body {
   background-color: pink;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 .circle {
   border-radius: 50%;
 }
 
-.cover{
+.cover {
   background-size: cover;
   background-position: center;
+}
+
+.card {
+  max-width: 500px;
+  margin: auto;
+}
+
+.card-default {
+  max-width: 100%;
+}
+
+.form-padding {
+  padding-top: 80px;
+}
+
+.btn {
+  background: crimson;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background: rgb(61, 6, 17);
+  font-size: 1rem;
+}
+
+input:hover {
+  border: crimson;
+
 }
