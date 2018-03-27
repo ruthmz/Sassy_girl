@@ -3,14 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  background-color: pink;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 main {
   flex: 1 0 auto;
+  margin: 0;
 }
 
 .circle {
@@ -22,30 +24,4 @@ main {
   background-position: center;
 }
 
-.card {
-  max-width: 500px;
-  margin: auto;
-}
 
-.card-default {
-  max-width: 100%;
-}
-
-.form-padding {
-  padding-top: 80px;
-}
-
-.btn {
-  background: crimson;
-  font-size: 1rem;
-}
-
-.btn:hover {
-  background: rgb(61, 6, 17);
-  font-size: 1rem;
-}
-
-input:hover {
-  border: crimson;
-
-}

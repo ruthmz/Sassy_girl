@@ -1,0 +1,46 @@
+.bg-login {
+  background: url('https://images.pexels.com/photos/247204/pexels-photo-247204.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center;
+  background-size: cover;
+}
+
+.container-opacity {
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  max-width: 500px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.card-default {
+  max-width: 100%;
+}
+
+.title-div {
+  height: 5rem;
+  font-size: 0.5rem;
+  font-weight: bold;
+  padding: 0.3rem 0;
+}
+
+.form-padding {
+  padding-top: 120px;
+}
+
+.btn {
+  background: #FED2AD;
+  font-size: 1rem;
+  color:gray;
+  font-weight: bold;
+}
+
+.btn:hover, .btn:active {
+  background: gray;
+  font-size: 1rem;
+  color: #FED2AD;
+}
+
+
