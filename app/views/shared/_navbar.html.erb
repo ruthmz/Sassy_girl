@@ -1,16 +1,18 @@
 <nav style="height: 100px;line-height: 100px;">
   <div class="nav-wrapper white">
-    <a href="#" class="brand-logo center black-text"  style="font-size:2.5rem;font-family: 'Oswald', sans-serif;">ECOMMERCE</a>
+    <a href="#" class="brand-logo center black-text" style="font-size:2.5rem;font-family: 'Oswald', sans-serif;"><img src="https://image.ibb.co/cTRikS/logo.png" class="responsive-img" style="width:300px; padding-top:10px" alt="logo" border="0"></a>
     <ul id="nav-mobile" class="left">
-      <%= link_to "HOME", unauthenticated_root_path %>
+      <%= link_to "INICIO", unauthenticated_root_path %>
     </ul>
     <ul id="nav-mobile" class="left ">
-      <%= link_to "PRODUCTS", products_path %>
+      <%= link_to "ROPA Y ACCESORIOS", products_path %>
     </ul>
     <ul id="nav-mobile" class="right">
       <li><a href="#">COLLECTIONS</a></li>
       <li><a href="#">BRANDS</a></li>
+      <li>
+        <a href="<%= new_user_session_path %>">Sign in</a>
+      </li>
     </ul>
   </div>
 </nav>
-

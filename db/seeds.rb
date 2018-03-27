@@ -33,5 +33,3 @@ end
   Category.create(name: 'zapatillas-hombre',
                   description:'zapatillas de mujer')
 end
-
-
