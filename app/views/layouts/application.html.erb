@@ -7,6 +7,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
@@ -17,10 +18,11 @@
 
   <%= render 'shared/messages' %>
 
-  <div class="container">
-    <%=yield%>
-  </div>
-
+  <main>
+    <div class="container">
+      <%=yield%>
+    </div>
+  </main>
 </body>
 
 </html>

@@ -18,6 +18,7 @@
 //= require materialize-sprockets
 //= require_tree .
 
+
 $(document).on('turbolinks:load', function() {
   $('.dropdown-button').dropdown();
   $('select').material_select();
@@ -26,5 +27,6 @@ $(document).on('turbolinks:load', function() {
 
 $(document).ready(function(){
   $('.slider').slider();
+
 });
     

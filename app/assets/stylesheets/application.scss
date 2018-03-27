@@ -15,4 +15,6 @@
  *= require default
  *= require_self
  */
- @import "materialize";
+  @import "materialize";
+  @import "materialize/extras/nouislider";
+  @import "home";
