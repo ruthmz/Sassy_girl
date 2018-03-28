@@ -115,30 +115,8 @@ En base a la información recabada decidimos enfocarnos en los siguientes benefi
 ![User Persona](ux/assets/user-persona.png "User Persona")
 
 ### 3. Prototipado y Testing
-**PAPER PROTOTYPING**
-![Paper](assets/1.jpg "Paper")
-![Paper](assets/2.jpg "Paper")
-![Paper](assets/3.jpg "Paper")
-
-Los primeros testing los realizamos en papel y el feedback que obtuvimos fue el siguiente:
-- No entendían el término organizador, designado para ser un tracker de gastos. Pensaron que era como una agenda.
-- Querían compartir la constancia de sus transacciones no solo por correo, sino por Whatsapp y otras aplicaciones.
-- Sugirieron una sección de atención al cliente, en caso de inconvenientes en sus operaciones.
-- Confusión en cuanto al método de registro.
-- Les pareció amigable y sencillo.
-- Querían una sección para encontrar sus operaciones más frecuentes/favoritas.
-- Confusión al momento de seleccionar el banco con el que realizar sus operaciones.
-
-**ALTA FIFELIDAD**
-- Le gustaron los colores
-- Faltó aliación entre las secciones
-- Falto una sección de movimientos detallados de la cuenta.
 
 **MARVEL**
 
-- Transacciones: https://marvelapp.com/2e96496/screen/39518702
-- Pago de servicios: https://marvelapp.com/2e96496/screen/39518693
-
-### Miembros
-- Nataly Cortez
-- Ruth Matos
+## Tecnología Utilizada
+- Ruby
