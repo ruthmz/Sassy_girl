@@ -19,7 +19,9 @@ Puede agregar editar, eliminar, actualizar productos
 
 ## Benchmarking
 Realizamos un estudio de Benchmarking , nos ofrece un contexto de comparación inmediato con respecto a nuestros iguales (competidores directos e indirectos) permitiéndonos saber si estamos haciendo bien las cosas o si tenemos margen para mejorarlas y detectar oportunidades, amenazas así como debilidades y fortalezas que provienen de nuestro entorno de competidores.
-![Benchmark]()
+
+
+![Benchmark](ux/assets/benchmarksassy.PNG "Benchmark")
 
 
 ## STAKEHOLDERS
