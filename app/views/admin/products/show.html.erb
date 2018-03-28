@@ -1,29 +1,29 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
-  <%= @product.name %>
-</p>
-
-<p>
-  <strong>Url:</strong>
-  <%= @product.url %>
-</p>
-
-<p>
-  <strong>Quantity:</strong>
-  <%= @product.quantity %>
-</p>
-
-<p>
-  <strong>Amount:</strong>
-  <%= @product.amount %>
-</p>
-
-<p>
-  <strong>Category:</strong>
-  <%= @product.category.id %>
-</p>
-
-<%= link_to 'Edit', edit_admin_product_path(@product) %> |
-<%= link_to 'Back', admin_products_path %>
+<div class="container-fluid m-top m-bottom">
+  <p id="notice"><%= notice %></p>
+  
+  <div class="row">
+    <div class="col s12 m6">
+      <img class="img-product-edit" src="<%= @product.url %>"/>
+    </div>
+    <div class="col s12 m6">
+      <p>
+        <strong>Name:</strong>
+        <%= @product.name %>
+      </p>
+      <p>
+        <strong>Quantity:</strong>
+        <%= @product.quantity %>
+      </p>
+      <p>
+        <strong>Amount:</strong>
+        <%= @product.amount %>
+      </p>
+      <p>
+        <strong>Category:</strong>
+        <%= @product.category.id %>
+      </p>
+      <%= link_to 'Edit', edit_admin_product_path(@product), :class => 'btn-orange' %> 
+      <%= link_to 'Back', admin_products_path, :class => 'btn-orange' %>
+    </div>
+  </div>
+</div>

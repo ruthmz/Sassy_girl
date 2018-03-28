@@ -56,3 +56,34 @@ table.products{
 #img-contenedor {
   overflow:hidden;
 }
+
+//Estilos del admin
+.m-top{
+  margin-top:7rem;
+}
+.text-uppercase{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.m-bottom{
+  margin-bottom: 4rem;
+}
+.img-product-edit{
+  max-width: 400px;
+}
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-product{
+  border:1px solid #efefef;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  padding: 2rem;
+  width: 50%;
+}
+textarea{
+  resize:none;
+}

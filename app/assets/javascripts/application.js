@@ -20,7 +20,7 @@
 
 $(document).on("turbolinks:load", function() {
   $(".dropdown-button").dropdown();
-  // $("select").material_select();
+  $("select").formSelect();
 });
 
 $(document).ready(function() {
