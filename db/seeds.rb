@@ -6,59 +6,59 @@
 # #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 # #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-# 2.times do |i|
-#   user = User.new(email: "admin#{i + 1}@laboratoriaAdmin.la",
-#                   password: '12345678', # Devise.friendly_token[0,20]
-#                   password_confirmation: '12345678')
+2.times do |i|
+  user = User.new(email: "admin#{i + 1}@laboratoriaAdmin.la",
+                  password: '12345678', # Devise.friendly_token[0,20]
+                  password_confirmation: '12345678')
 
-#   user.profile = Admin.new(username: "admin#{i + 1}")
-#   user.save
-# end
+  user.profile = Admin.new(username: "admin#{i + 1}")
+  user.save
+end
 
-# 2.times do |i|
-#   user = User.new(email: "customer#{i + 1}@laboratoriaCustomer.la",
-#                   password: '12345678', # Devise.friendly_token[0,20]
-#                   password_confirmation: '12345678')
+2.times do |i|
+  user = User.new(email: "customer#{i + 1}@laboratoriaCustomer.la",
+                  password: '12345678', # Devise.friendly_token[0,20]
+                  password_confirmation: '12345678')
 
-#   user.profile = Customer.new(username: "customer#{i + 1}")
-#   user.save
-# end
+  user.profile = Customer.new(username: "customer#{i + 1}")
+  user.save
+end
 
-# Category.create(
-#                 name:'Nuevos Modelos', 
-#                 description:'Aquí puedes ver los nuevos modelos que teneos disponibles')
+Category.create(
+                name:'Nuevos Modelos', 
+                description:'Aquí puedes ver los nuevos modelos que teneos disponibles')
 
-# Category.create(
-#                 name:'Polos', 
-#                 description:'Los polos que tenemos disponibles')
+Category.create(
+                name:'Polos', 
+                description:'Los polos que tenemos disponibles')
 
-# Category.create(
-#                 name:'Jeans', 
-#                 description:'Los jeans que tenemos disponibles')
+Category.create(
+                name:'Jeans', 
+                description:'Los jeans que tenemos disponibles')
 
-# Category.create(
-#                 name:'Pantalones', 
-#                 description:'Los pantalones que tenemos disponibles')
+Category.create(
+                name:'Pantalones', 
+                description:'Los pantalones que tenemos disponibles')
 
-# Category.create(
-#                 name:'Vestidos', 
-#                 description:'Los vestidos que tenemos disponibles')
+Category.create(
+                name:'Vestidos', 
+                description:'Los vestidos que tenemos disponibles')
 
-# Category.create(
-#                 name:'Faldas', 
-#                 description:'Las faldas que tenemos disponibles')
+Category.create(
+                name:'Faldas', 
+                description:'Las faldas que tenemos disponibles')
 
-# Category.create(
-#                 name:'Crops', 
-#                 description:'Los crops que tenemos disponibles')
+Category.create(
+                name:'Crops', 
+                description:'Los crops que tenemos disponibles')
 
-# Category.create(
-#                 name:'Chompas', 
-#                 description:'Las chompas que tenemos disponibles')
+Category.create(
+                name:'Chompas', 
+                description:'Las chompas que tenemos disponibles')
 
-# Category.create(
-#                 name:'Conjuntos', 
-#                 description:'Los conjuntos que tenemos disponibles')
+Category.create(
+                name:'Conjuntos', 
+                description:'Los conjuntos que tenemos disponibles')
 
 
 #######JEANS########
