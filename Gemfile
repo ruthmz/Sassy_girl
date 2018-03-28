@@ -60,6 +60,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem 'rails_12factor'
+  gem 'pg', '~> 0.15'
+  gem 'heroku-deflater'  
 end
 
 gem "will_paginate", "~> 3.1.6" 
