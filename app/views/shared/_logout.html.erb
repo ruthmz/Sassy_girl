@@ -10,20 +10,20 @@
       <ul id="nav-mobile" class="left hide-on-med-and-down">
         <% if current_user.customer? %>
           <li>
-            <a href="<%= customer_home_index_path %>">INICIO</a>
+            <a href="<%= lab_customer_home_index_path %>">INICIO</a>
           </li>
           <li>
-            <a href="<%= customer_products_path %>">ROPA Y ACCESORIOS</a>
+            <a href="<%= lab_customer_products_path %>">ROPA Y ACCESORIOS</a>
           </li>
         <% elsif current_user.admin? %>
           <li>
-            <a href="<%= admin_home_index_path %>">INICIO</a>
+            <a href="<%= lab_admin_home_index_path %>">INICIO</a>
           </li>
           <li>
-            <a href="<%= admin_categories_path %>">CATEGORIAS</a>
+            <a href="<%= lab_admin_categories_path %>">CATEGORIAS</a>
           </li>
           <li>
-            <a href="<%= admin_products_path %>">PRODUCTOS</a>
+            <a href="<%= lab_admin_products_path %>">PRODUCTOS</a>
           </li>
       <% end%>
       </ul>
