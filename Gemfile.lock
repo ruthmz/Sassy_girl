@@ -227,7 +227,7 @@ DEPENDENCIES
   jquery-rails
   jquery-ui-rails
   materialize-sass (~> 1.0.0.beta)
-  pg (~> 0.21)
+  pg (~> 0.20)
   pry (~> 0.10.4)
   rails (= 4.2.10)
   rails_12factor
