@@ -25,8 +25,9 @@ $(document).on("turbolinks:load", function() {
 
 $(document).ready(function() {
   $(".slider").slider();
-  $('.button-categoria').click(function(){
-    var valueButton = $(this).val();
+  $('.button-categoria').click(function(e){
+    e.preventDefault();
+    var valueButton = $(this).data("value");
     console.log(valueButton)
     $('.single-td').each(function () {
       var tabla = $(this).attr('id')
