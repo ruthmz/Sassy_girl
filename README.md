@@ -73,7 +73,7 @@ Realizamos un estudio de Benchmarking , nos ofrece un contexto de comparación i
 
 - Formulación de cuestionario y guía de entrevistas
 - [Encuestas online](https://docs.google.com/forms/d/e/1FAIpQLSdsot1wmRGD46ARa3YwvIAklEjfI7VOVnMYm07HAD3izOiCGA/viewform)
-Se realizó encuestas que fueron enviadas a un público de alrededor 40 personas a través de internet, con la finalidad de darnos una idea de la situación actual, características de los usuarios, comportamientos financieros, preferencias, problemática, etc.
+Se realizó encuestas que fueron enviadas a un público de alrededor 16 personas a través de internet, con la finalidad de darnos una idea de la situación actual, características de los usuarios, comportamientos financieros, preferencias, problemática, etc.
 - Entrevistas a profundidad
 ![Encuesta](ux/assets/re-1.png "Encuesta")
 ![Encuesta](ux/assets/re-2.png "Encuesta")
