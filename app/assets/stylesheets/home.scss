@@ -3,14 +3,16 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  background-color: pink;
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 main {
   flex: 1 0 auto;
+  margin: 0;
 }
 
 .circle {
@@ -22,33 +24,198 @@ main {
   background-position: center;
 }
 
-.card {
-  max-width: 500px;
-  margin: auto;
+/* Slider */
+#slider{
+  width:100%;
+  height:90vh;
+  position:relative;
+  overflow:hidden;
 }
 
-.card-default {
-  max-width: 100%;
+@keyframes load{
+  from{left:-100%;}
+  to{left:0;}
 }
 
-.form-padding {
-  padding-top: 80px;
+.slides{
+  width:400%;
+  height:100%;
+  position:relative;
+  animation:slide 30s infinite;
 }
 
-.btn {
-  background: crimson;
-  font-size: 1rem;
+.sliderManual{
+  width:25%;
+  height:100%;
+  float:left;
+  position:relative;
+  z-index:1;
+  overflow:hidden;
 }
 
-.btn:hover {
-  background: rgb(61, 6, 17);
-  font-size: 1rem;
+.image{
+  width:100%;
+  height:100%;
 }
 
-input:hover {
-  border: crimson;
-
+.image img{
+  width:100%;
+  height:100%;
 }
+
+/* Legend */
+.legend{
+  border:635px solid transparent;
+  border-left:800px solid rgba(52, 73, 94, .7);
+  border-bottom:0;
+  position:absolute;
+  bottom:0;
+}
+
+/* Contents */
+.content{
+  width:100%;
+  height:100%;
+  position:absolute;
+  overflow:hidden;
+}
+
+.content-txt{
+  width:400px;
+  height:150px;
+  float:left;
+  position:relative;
+  top:300px;
+  animation:content-s 7.5s infinite;
+}
+
+.content-txt h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform:uppercase;
+  font-size:24px;
+  color:#fff;
+  text-align:left;
+  margin-left:30px;
+  padding-bottom:10px;
+}
+
+.content-txt h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:normal;
+  font-size:14px;
+  color:#fff;
+  text-align:left;
+  margin-left:30px;
+}
+
+/* Switch */
+.switch{
+  width:120px;
+  height:10px;
+  position:absolute;
+  bottom:50px;
+  z-index:99;
+  left:30px;
+}
+
+.switch > ul{
+  list-style:none;
+}
+
+.switch > ul > li{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background:#333;
+  float:left;
+  margin-right:5px;
+  cursor:pointer;
+}
+
+.switch ul{
+  overflow:hidden;
+}
+
+.on{
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background:#f39c12;
+  position:relative;
+  animation:on 30s infinite;
+}
+
+/* Animation */
+@keyframes slide{
+  0%,100%{
+    margin-left:0%;
+  }
+  21%{
+    margin-left:0%;
+  }
+  25%{
+    margin-left:-100%;
+  }
+  46%{
+    margin-left:-100%;
+  }
+  50%{
+    margin-left:-200%;
+  }
+  71%{
+    margin-left:-200%;
+  }
+  75%{
+    margin-left:-300%;
+  }
+  96%{
+    margin-left:-300%;
+  }
+}
+
+
+@keyframes content-s{
+  0%{left:-420px;}
+  10%{left:20px;}
+  15%{left:0px;}
+  30%{left:0px;}
+  40%{left:0px;}
+  50%{left:0px;}
+  60%{left:0px;}
+  70%{left:0;}
+  80%{left:-420px;}
+  90%{left:-420px;}
+  100%{left:-420px;}
+}
+
+@keyframes on{
+  0%,100%{
+    margin-left:0%;
+  }
+  21%{
+    margin-left:0%;
+  }
+  25%{
+    margin-left:15px;
+  }
+  46%{
+    margin-left:15px;
+  }
+  50%{
+    margin-left:30px;
+  }
+  71%{
+    margin-left:30px;
+  }
+  75%{
+    margin-left:45px;
+  }
+  96%{
+    margin-left:45px;
+  }
+}
+//Este es de Elizabeth
 .display-none{
   display: none;
 }
@@ -59,7 +226,10 @@ input:hover {
   z-index: 4;
   left: 0;
   background: #efefef;
-  width: 30%;
-  top: 0;
+  width: 20%;
+  top: 12%;
 }
-         
+.all-products{
+  margin-left: 20%;
+  padding: 0 2rem;
+}

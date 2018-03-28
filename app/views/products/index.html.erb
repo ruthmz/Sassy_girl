@@ -3,38 +3,30 @@
 <h1>Listing Products</h1>
 
 <ul id="slide-out" class="sidenav sidenav-fixed">
-  <li><a href="#!">First Sidebar Link</a></li>
-  <li><a href="#!">Second Sidebar Link</a></li>
+  <li><button value="Jeans" class='button-categoria'>Jeans</button></li>
+  <li><button value="Polos" class='button-categoria'>Polos</button></li>
 </ul>
 <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           
           
   
-<div class="row">
-  <% @products.each do |product| %>
-    <div class="col s12 m4 l4 card single-td" id="<%= product.category.name %>">
-      <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator" src="<%= product.url %>">
+<div class= "all-products">
+  <div class="row">
+    <% @products.each do |product| %>
+      <div class="col s12 m4 l4 card single-td" id="<%= product.category.name %>">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="<%= product.url %>">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4"><%= product.name %><i class="material-icons right">more_vert</i></span>
+          <p><a href="">View more</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4"><%= product.name %><i class="material-icons right">close</i></span>
+          <p><%= product.category.name %></p>
+        </div>
       </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4"><%= product.name %><i class="material-icons right">more_vert</i></span>
-        <p><a href="">View more</a></p>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4"><%= product.name %><i class="material-icons right">close</i></span>
-        <p><%= product.category.name %></p>
-      </div>
-    </div>
-  <% end %>
+    <% end %>
+  </div>
 </div>
 
-
-
-<button value="Jeans" class='button-categoria'>
-  Jeans
-</button>
-
-
-<button value="Polos" class='button-categoria'>
-  Polos
-</button>
