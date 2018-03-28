@@ -89,7 +89,7 @@ En esta etapa nos enfocamos en obtener los insights de los usuarios a través de
 
 **DIAGRAMA DE AFINIDAD**
 
-![Diagrama](ux/assets/mapa.png "Diagrama de afinidad")
+![Diagrama](https://raw.githubusercontent.com/NelidaSh/hackathon-rails/master/ux/assets/map.png "Diagrama de afinidad")
 
 Se realizó un diagrama de Afinidad con la finalidad de poder analizar los datos obtenidos de las encuestas y entrevistas y agruparlos de acuerdo a las similutes de las respuestas. Los temas encontrados fueron :
 
