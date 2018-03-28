@@ -19,6 +19,7 @@ Puede agregar editar, eliminar, actualizar productos
 
 ## Benchmarking
 Realizamos un estudio de Benchmarking , nos ofrece un contexto de comparación inmediato con respecto a nuestros iguales (competidores directos e indirectos) permitiéndonos saber si estamos haciendo bien las cosas o si tenemos margen para mejorarlas y detectar oportunidades, amenazas así como debilidades y fortalezas que provienen de nuestro entorno de competidores.
+![Benchmark]()
 
 
 ## STAKEHOLDERS
@@ -73,7 +74,7 @@ Realizamos un estudio de Benchmarking , nos ofrece un contexto de comparación i
 
 - Formulación de cuestionario y guía de entrevistas
 - [Encuestas online](https://docs.google.com/forms/d/e/1FAIpQLSdsot1wmRGD46ARa3YwvIAklEjfI7VOVnMYm07HAD3izOiCGA/viewform)
-Se realizó encuestas que fueron enviadas a un público de alrededor 16 personas a través de internet, con la finalidad de darnos una idea de la situación actual, características de los usuarios, comportamientos financieros, preferencias, problemática, etc.
+Se realizó encuestas que fueron enviadas a un público de alrededor 40 personas a través de internet, con la finalidad de darnos una idea de la situación actual, características de los usuarios, comportamientos financieros, preferencias, problemática, etc.
 - Entrevistas a profundidad
 ![Encuesta](ux/assets/re-1.png "Encuesta")
 ![Encuesta](ux/assets/re-2.png "Encuesta")
@@ -87,3 +88,92 @@ Se realizó encuestas que fueron enviadas a un público de alrededor 16 personas
 ![Encuesta](ux/assets/re-10.png "Encuesta")
 ![Encuesta](ux/assets/re-11.png "Encuesta")
 ![Encuesta](ux/assets/re-12.png "Encuesta")
+
+### 2. Síntesis e Ideación
+En esta etapa nos enfocamos en obtener los insights de los usuarios a través de la recopilación y análisis de información de nuestra investigación.
+
+**DIAGRAMA DE AFINIDAD**
+
+![Diagrama](assets/mapa.jpg "Plan de actividades")
+
+Se realizó un diagrama de Afinidad con la finalidad de poder analizar los datos obtenidos de las encuestas y entrevistas y agruparlos de acuerdo a las similutes de las respuestas. Los temas encontrados fueron :
+
+*Información General*
+
+- Utilizan tarjetas de crédito o débito
+- Realizan transacciones online
+- Realizan transacciones a través de la banca digital y app de su banco
+
+*Beneficios más frecuentes al realizar transacciones Online*
+
+- Ahorro de Tiempo
+- Fácil
+- Rapidez
+- Comodidad
+
+*Problemas más frecuentes con su banco*
+
+- Cobro por transacciones
+- La atención en ventanilla
+- Cobro de mantenimiento
+
+*Transacciones más frecuentes que realiza*
+
+- Tranferencias
+- Pago de servicios
+- Pago de tarjetas
+
+*Principales motivos por los que ahorra*
+
+- Vivienda
+- Estudios
+- Viajes
+- Imprevistos
+
+*Principales características llamativas para los usuarios*
+
+- Promociones
+- Descuentos
+- Consejos de ahorro
+
+**CONCEPTUALIZACIÓN**
+
+En base a la información recabada decidimos enfocarnos en los siguientes beneficios para los usuarios:
+- Operaciones frecuentes
+- Uso de cuentas de diferentes bancos
+- Pago de servicios
+- Consejos de ahorro
+- Promociones
+
+**USER PERSONA**
+
+![User Persona](ux/assets/user-persona.png "User Persona")
+
+### 3. Prototipado y Testing
+**PAPER PROTOTYPING**
+![Paper](assets/1.jpg "Paper")
+![Paper](assets/2.jpg "Paper")
+![Paper](assets/3.jpg "Paper")
+
+Los primeros testing los realizamos en papel y el feedback que obtuvimos fue el siguiente:
+- No entendían el término organizador, designado para ser un tracker de gastos. Pensaron que era como una agenda.
+- Querían compartir la constancia de sus transacciones no solo por correo, sino por Whatsapp y otras aplicaciones.
+- Sugirieron una sección de atención al cliente, en caso de inconvenientes en sus operaciones.
+- Confusión en cuanto al método de registro.
+- Les pareció amigable y sencillo.
+- Querían una sección para encontrar sus operaciones más frecuentes/favoritas.
+- Confusión al momento de seleccionar el banco con el que realizar sus operaciones.
+
+**ALTA FIFELIDAD**
+- Le gustaron los colores
+- Faltó aliación entre las secciones
+- Falto una sección de movimientos detallados de la cuenta.
+
+**MARVEL**
+
+- Transacciones: https://marvelapp.com/2e96496/screen/39518702
+- Pago de servicios: https://marvelapp.com/2e96496/screen/39518693
+
+### Miembros
+- Nataly Cortez
+- Ruth Matos
