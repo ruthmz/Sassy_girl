@@ -31,6 +31,9 @@ table.products{
 }
 .pagination{
   float: right;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 //Styles de show.html
@@ -85,5 +88,18 @@ table.products{
   width: 50%;
 }
 textarea{
+  border:1px solid #ccc;
   resize:none;
+}
+.collection_radio_buttons{
+  margin-left:1.5rem;
+}
+input[type="radio"]{
+  opacity:1!important;
+  margin-top: 0.3rem;
+  margin-left:0.5rem;
+}
+
+.collection a {
+  padding: 20px;
 }
