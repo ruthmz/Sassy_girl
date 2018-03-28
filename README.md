@@ -31,13 +31,6 @@ Realizamos un estudio de Benchmarking , nos ofrece un contexto de comparación i
 - Diseñador web
 - Millenialls mujeres
 
-## REUNIÓN KICK OFF
-[**AGENDA DE ACTIVIDADES**](http://docs.google.com/document/d/1_vooE_yBEE2rj1v3dcruDtJjUTviaZnZblBrozv6L0I/edit)
-
-### PREGUNTAS
-**Cliente Interno**
-
-
 
 ## BUSINESS MODEL CANVAS
 ### ORIENTADO A COMPRADORES
