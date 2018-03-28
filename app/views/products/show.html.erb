@@ -1,18 +1,34 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @product.name %>
-</p>
+<div class="container textDetalles">
+  <div class="row">
+    <div id="img-contenedor" class="col s12 m6" style="margin-top: 140px;">
+      <img class="activator imagenSelect" src="<%= @product.url %>">
+    </div>
+      <div class="col s12 m6" style="margin-top: 140px;">
+        <div class="card white">
+          <div class="card-content white-text">
+            <span class="card-title black-text center-align"><strong><%= @product.name %></strong></span>
+            <p class="black-text">Pensando en todos los beneficios que te ofrece la ropa de moda en Perú para mujeres, en tu tienda preferida de compras en línea encontrarás una gran variedad estilos, marcas y precios con envíos a todo el país y devoluciones fáciles sin costos adicionales.</p>
+          </div>
+          <div class="card-action">
+            <p>
+              <strong style="font-size:20px">S/. </strong>
+              <%= @product.amount %>
+            </p>
+            <p>
+              <strong>Categoria:</strong>
+              <%= @product.category.name %>
+            </p>
+            <p>
+              <strong>Cantidad Disponible:</strong>
+              <%= @product.quantity %>
+            </p>
+          </div>
+        </div>
+        <button class="btn waves-effect waves-light" type="submit" name="action"><%= link_to 'ATRÁS', products_path %>
+      </button>
+      </div>
+  </div>
+</div>
 
-<p>
-  <strong>Url:</strong>
-  <%= @product.url %>
-</p>
-
-<p>
-  <strong>Category:</strong>
-  <%= @product.category.name %>
-</p>
-
-<%= link_to 'Back', products_path %>

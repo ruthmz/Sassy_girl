@@ -1,6 +1,7 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "materialize";
 
 body {
   display: flex;
@@ -27,7 +28,7 @@ main {
 /* Slider */
 #slider{
   width:100%;
-  height:90vh;
+  height:100vh;
   position:relative;
   overflow:hidden;
 }
@@ -65,7 +66,7 @@ main {
 
 /* Legend */
 .legend{
-  border:635px solid transparent;
+  border:610px solid transparent;
   border-left:800px solid rgba(52, 73, 94, .7);
   border-bottom:0;
   position:absolute;
@@ -85,7 +86,7 @@ main {
   height:150px;
   float:left;
   position:relative;
-  top:300px;
+  top:380px;
   animation:content-s 7.5s infinite;
 }
 
@@ -223,12 +224,18 @@ main {
 #slide-out{
   height: 100vh;
   position: fixed;
-  padding: 2rem 0;
+  padding: 1rem 0;
   z-index: 4;
   left: 0;
   background: #efefef;
   width: 20%;
   top: 12%;
+}
+
+#slide-out div a {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .all-products{

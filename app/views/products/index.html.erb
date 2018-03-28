@@ -3,20 +3,19 @@
 <h1>Listing Products</h1>
 
 <ul id="slide-out" class="sidenav sidenav-fixed">
-  <li><a data-value="Nuevos Modelos" class='button-categoria'>Nuevos Modelos</a></li>
-  <li><a data-value="Jeans" class='button-categoria'>Jeans</a></li>
-  <li><a data-value="Polos" class='button-categoria'>Polos</a></li>
-  <li><a data-value="Pantalones" class='button-categoria'>Pantalones</a></li>
-  <li><a data-value="Vestidos" class='button-categoria'>Vestidos</a></li>
-  <li><a data-value="Faldas" class='button-categoria'>Faldas</a></li>
-  <li><a data-value="Crops" class='button-categoria'>Crops</a></li>
-  <li><a data-value="Chompas" class='button-categoria'>Chompas</a></li>
-  <li><a data-value="Conjuntos" class='button-categoria'>Conjuntos</a></li>
+  <div class="collection">
+    <a data-value="Nuevos Modelos" class='collection-item button-categoria'><span class="new badge">4</span>Nuevos Modelos</a>
+    <a data-value="Jeans" class='collection-item button-categoria'><span class="badge">1</span>Jeans</a>
+    <a data-value="Polos" class='collection-item button-categoria'>Polos</a>
+    <a data-value="Pantalones" class='collection-item button-categoria'>Pantalones</a>
+    <a data-value="Vestidos" class='collection-item button-categoria'>Vestidos</a>
+    <a data-value="Faldas" class='collection-item button-categoria'>Faldas</a>
+    <a data-value="Crops" class='collection-item button-categoria'>Crops</a>
+    <a data-value="Chompas" class='collection-item button-categoria'>Chompas</a>
+    <a data-value="Conjuntos" class='collection-item button-categoria'>Conjuntos</a>
+  </div>
 </ul>
-<a href="#" data-target="slide-ouass="sidenav-trigger"><i class="material-icons">menu</i></a>
-          
-          
-  
+
 <div class= "all-products">
   <div class="row">
     <% @products.each do |product| %>
@@ -25,8 +24,8 @@
           <img class="activator" src="<%= product.url %>">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4"><%= product.name %><i class="material-icons right">more_vert</i></span>
-          <p><a href="">View more</a></p>
+          <span style="font-size:18px; font-weight: bold;" class="card-title activator grey-text text-darken-4"><%= product.name %><i class="material-icons right">more_vert</i></span>
+          <td><%= link_to 'Detalles', product %></td>
         </div>
         <div class="card-reveal">
           <span class="card-title grey-text text-darken-4"><%= product.name %><i class="material-icons right">close</i></span>
