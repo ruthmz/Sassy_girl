@@ -1,19 +1,26 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @category.name %>
-</p>
+<div class="container-fluid m-top m-bottom">
+  <p id="notice"><%= notice %></p>
+  
+  <div class="row">
+    <div class="col s12 m8">
+      <p>
+        <strong>Name:</strong>
+        <%= @category.name %>
+      </p>
 
-<p>
-  <strong>Active:</strong>
-  <%= @category.active %>
-</p>
+      <p>
+        <strong>Active:</strong>
+        <%= @category.active %>
+      </p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @category.description %>
-</p>
-
-<%= link_to 'Edit', edit_admin_category_path(@category) %> |
-<%= link_to 'Back', admin_categories_path %>
+      <p>
+        <strong>Description:</strong>
+        <%= @category.description %>
+      </p>
+      <%= link_to 'Edit', edit_admin_category_path(@category), :class => 'btn-orange' %>
+      <%= link_to 'Back', admin_categories_path, :class => 'btn-orange' %>
+    </div>
+  </div>
+</div>
