@@ -1,6 +1,33 @@
 // Place all the styles related to the Products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.container-fluid{
+  padding: 0 5%;
+}
 .display-none{
   display: none;
+}
+table.products{
+  tr{
+    th{
+      text-align:center;
+    }
+    td{
+      text-align:center;
+    }
+  }
+  img{
+    max-width: 100px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+}
+.btn-orange{
+  background: #FDD2AF;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+}
+.pagination{
+  float: right;
 }
