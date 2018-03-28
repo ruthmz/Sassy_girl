@@ -94,56 +94,19 @@ En esta etapa nos enfocamos en obtener los insights de los usuarios a través de
 
 **DIAGRAMA DE AFINIDAD**
 
-![Diagrama](assets/mapa.jpg "Plan de actividades")
+![Diagrama](ux/assets/mapa.png "Diagrama de afinidad")
 
 Se realizó un diagrama de Afinidad con la finalidad de poder analizar los datos obtenidos de las encuestas y entrevistas y agruparlos de acuerdo a las similutes de las respuestas. Los temas encontrados fueron :
 
-*Información General*
 
-- Utilizan tarjetas de crédito o débito
-- Realizan transacciones online
-- Realizan transacciones a través de la banca digital y app de su banco
-
-*Beneficios más frecuentes al realizar transacciones Online*
-
-- Ahorro de Tiempo
-- Fácil
-- Rapidez
-- Comodidad
-
-*Problemas más frecuentes con su banco*
-
-- Cobro por transacciones
-- La atención en ventanilla
-- Cobro de mantenimiento
-
-*Transacciones más frecuentes que realiza*
-
-- Tranferencias
-- Pago de servicios
-- Pago de tarjetas
-
-*Principales motivos por los que ahorra*
-
-- Vivienda
-- Estudios
-- Viajes
-- Imprevistos
-
-*Principales características llamativas para los usuarios*
-
-- Promociones
-- Descuentos
-- Consejos de ahorro
 
 **CONCEPTUALIZACIÓN**
 
 En base a la información recabada decidimos enfocarnos en los siguientes beneficios para los usuarios:
-- Operaciones frecuentes
-- Uso de cuentas de diferentes bancos
-- Pago de servicios
-- Consejos de ahorro
-- Promociones
+- Productos de ropa y accesorios
+- Plataforma simple 
+- Información sobre stock, y precios.
+- Principales ofertas resaltadas en la vista inicial
 
 **USER PERSONA**
 
