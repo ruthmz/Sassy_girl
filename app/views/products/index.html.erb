@@ -1,7 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Products</h1>
-
+<br>
+<br>
+<br>
+<br>
 <ul id="slide-out" class="sidenav sidenav-fixed">
   <div class="collection">
     <a data-value="Nuevos Modelos" class='collection-item button-categoria'><span class="new badge">4</span>Nuevos Modelos</a>
@@ -19,7 +21,7 @@
 <div class= "all-products">
   <div class="row">
     <% @products.each do |product| %>
-      <div class="col s12 m4 l4 card single-td" id="<%= product.category.name %>">
+      <div class="col s12 m4 l4 card single-td" style="margin: 90px;" id="<%= product.category.name %>">
         <div class="card-image waves-effect waves-block waves-light">
           <img class="activator" src="<%= product.url %>">
         </div>

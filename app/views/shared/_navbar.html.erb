@@ -1,18 +1,10 @@
 <nav style="height: 100px;line-height: 100px;">
-  <div class="nav-wrapper white">
-    <a href="#" class="brand-logo center black-text" style="font-size:2.5rem;font-family: 'Oswald', sans-serif;"><img src="https://image.ibb.co/cTRikS/logo.png" class="responsive-img" style="width:300px; padding-top:10px" alt="logo" border="0"></a>
-    <ul id="nav-mobile" class="left">
-      <%= link_to "INICIO", unauthenticated_root_path %>
-    </ul>
-    <ul id="nav-mobile" class="left ">
-      <%= link_to "ROPA Y ACCESORIOS", products_path %>
-    </ul>
-    <ul id="nav-mobile" class="right">
-      <li><a href="#">COLLECTIONS</a></li>
-      <li><a href="#">BRANDS</a></li>
-      <li>
-        <a href="<%= new_user_session_path %>">Sign in</a>
-      </li>
+  <div class="nav-wrapper" id="bg">
+    <a href="#" class="brand-logo"><img src="http://img.fenixzone.net/i/o6KJybS.png" class="responsive-img" style="width:300px; padding-top:10px" alt="logo" border="0"></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><%= link_to "INICIO", unauthenticated_root_path %></li>
+      <li><%= link_to "ROPA Y ACCESORIOS", products_path %></li>
+      <li><a href="<%= new_user_session_path %>">INICIAR SESIÓN</a></li>
     </ul>
   </div>
 </nav>

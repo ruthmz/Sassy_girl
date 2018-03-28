@@ -1,18 +1,40 @@
 //Styles del nav.html.erb
-#nav-mobile a {
-  color: black;
+body {
   font-family: 'Montserrat', sans-serif;
+}
+
+#bg {
+  background: linear-gradient( #121E3F,#2B4A99);
+}
+
+#nav-mobile a {
+  color:white;
   font-size: 1rem;
   padding: 0 40px;
   font-weight: 700;
 }
+
 nav{
   position:fixed;
   z-index: 6;
 }
+
+#text-title {
+  color:#989795;
+  font-weight: bolder;
+}
+
+#line-title {
+  width: 400px;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #FED2AD;
+  padding: 0; 
+}
+
 footer {
-  font-family: 'Montserrat', sans-serif;
   z-index: 6;
+  background: linear-gradient( #121E3F,#2B4A99);
 }
 
 //Styles del footer.html.erb
