@@ -1,172 +1,89 @@
-# < Shopping >
+![Logo](ux/assets/logo.png "Sassy Girl")
 
-> Preparando el entorno de trabajo para el sistema operativo **Windows**.
 
-> **Nota:** puedes ejecutar la instalación del punto **1** y **2** simultaneamente.
+## PROBLEMA
+Las páginas de tiendas para damas no siempre tienen la información ni el stock actualizado de los productos.
 
-1. Descargar de https://rubyinstaller.org/downloads/ e instalar, la versión **2.4.3-2** de `ruby`.
-> Si usas **Linux** específicamente distribuciones basadas en `Debian` como lo es `Ubuntu`, puedes ver: https://github.com/rvm/ubuntu_rvm, **RVM** es un manejador de versiones de ruby, para más información: https://rvm.io/
 
-![rubyInstall-0]
+## RETO
+Realizar una página que tengas las dos siguientes vistas:
+- Comprador:
+Brindar un catálogo online que permite ver los precios, stock, fotos y detalle de los productos.
+- Administrador:
+Puede agregar editar, eliminar, actualizar productos 
 
-[rubyInstall-0]: ./assets/images/Screenshot_1.png
 
-![rubyInstall-1]
+**Público Objetivo**
+- Millenials mujeres de 18 a 35 años
 
-[rubyInstall-1]: ./assets/images/Screenshot_2.png
 
-![rubyInstall-2]
+## Benchmarking
+Realizamos un estudio de Benchmarking , nos ofrece un contexto de comparación inmediato con respecto a nuestros iguales (competidores directos e indirectos) permitiéndonos saber si estamos haciendo bien las cosas o si tenemos margen para mejorarlas y detectar oportunidades, amenazas así como debilidades y fortalezas que provienen de nuestro entorno de competidores.
 
-[rubyInstall-2]: ./assets/images/Screenshot_3.png
 
-![rubyInstall-3]
+## STAKEHOLDERS
+- CEO
+- Gerente de Marketing
+- Director de proyecto
+- Diseñador web
+- Millenialls mujeres
 
-[rubyInstall-3]: ./assets/images/Screenshot_4.png
+## REUNIÓN KICK OFF
+[**AGENDA DE ACTIVIDADES**](http://docs.google.com/document/d/1_vooE_yBEE2rj1v3dcruDtJjUTviaZnZblBrozv6L0I/edit)
 
-> Presionamos la tecla **ENTER** para que se instalen los 3 componentes.
+### PREGUNTAS
+**Cliente Interno**
 
-![rubyInstall-4]
 
-[rubyInstall-4]: ./assets/images/Screenshot_5.png
 
-> En este punto ya culmino la instalación de `ruby` y sus dependencias con el sistema.
+## BUSINESS MODEL CANVAS
+### ORIENTADO A COMPRADORES
 
-> Verificamos con el comando `ruby -v`.
+![Business Model Canvas](ux/assets/bmc-comprador.png "Business Model Canvas Comprador")
 
-![rubyInstall-5]
+### ORIENTADO A ADMINISTRADORES
 
-[rubyInstall-5]: ./assets/images/Screenshot_11.png
+![Business Model Canvas](ux/assets/bmc-admin.png "Business Model Canvas Administrador")
 
-2. Descargar de `https://www.postgresql.org/download/windows/` e instalar la versión **9.4.17** de `PostgreSQL`. Es un manejador de base de datos relacionales.
-> Si usas **Linux** específicamente distribuciones basadas en `Debian` como lo es `Ubuntu`, puedes ver: https://doc.odoo.com/es/install/linux/postgres/ para complementar.
->
-> Escribe en la terminal:
->>`sudo apt install postgresql postgresql-client
-postgresql-contrib libpq-dev`
->
-> Esto instala el cliente y servidor de la base de datos y algunos scripts de utilería
->
->El paquete `libpq-dev` nos permitirá compilar la gema para **PostgreSQL**.
->
-> Confirma que la instalación terminó adecuadamente:
->
->> `psql --version`
->
-> Para crear un usuario llamado **admin**:
->> sudo su postgres -c psql
->
->> CREATE USER **admin** WITH PASSWORD '**password**';
->
->> ALTER ROLE **admin** WITH CREATEDB;
->
->> `\q`
 
-Continuamos con la instalación en el sistema operativo **Windows**
+## PLAN DE INVESTIGACIÓN
+### OBJETIVOS
+- Comprender qué tipo de productos son los que adquiere con mayor frecuencia nuestro público objetivo.
 
-![pgInstall-0]
+- Entender el proceso realizan antes y durante de realizar una compra nuestro público objetivo.
 
-[pgInstall-0]: ./assets/images/Screenshot_6.png
+- Conocer que influye en la decisión y elección de nuestro público objetivo al realizar una compra.
 
-![pgInstall-1]
+-  Determinar las características principales de nuestro usuario.
 
-[pgInstall-1]: ./assets/images/Screenshot_7.png
 
-![pgInstall-2]
+**HERRAMIENTAS**
+- Benchmarking
+- Encuestas
+- Entrevistas a profundidad
+- Diagrama de afinidad
+- Testing
 
-[pgInstall-2]: ./assets/images/Screenshot_8.png
 
-![pgInstall-2.0]
+**ACTIVIDADES PLANEADAS**
+## ETAPAS
+![Plan](ux/assets/planner.png "Plan")
 
-[pgInstall-2.0]: ./assets/images/Screenshot_8.1.png
+### 1. Descubrimiento e investigación
 
-![pgInstall-2.1]
-
-[pgInstall-2.1]: ./assets/images/Screenshot_8.2.png
-
-![pgInstall-2.2]
-
-[pgInstall-2.2]: ./assets/images/Screenshot_8.3.png
-
-![pgInstall-3]
-
-[pgInstall-3]: ./assets/images/Screenshot_9.png
-
-![pgInstall-4]
-
-[pgInstall-4]: ./assets/images/Screenshot_10.png
-
-> Al ejecutar **pgAdmin III** verificamos que se haya instalado. Este es nuestro administrador de base de datos.
-
-![pgInstall-5]
-
-[pgInstall-5]: ./assets/images/Screenshot_12.png
-
-3. Instalamos la gema `rails` desde `https://rubygems.org/` con la instrucción `gem install rails -v 4.2.10 --no-ri --no-rdoc` en un **cmd**.
-
-![railsInstall-0]
-
-[railsInstall-0]: ./assets/images/Screenshot_13.png
-
-![railsInstall-1]
-
-[railsInstall-1]: ./assets/images/Screenshot_14.png
-
-![railsInstall-2]
-
-[railsInstall-2]: ./assets/images/Screenshot_15.png
-
-![railsInstall-3]
-
-[railsInstall-3]: ./assets/images/Screenshot_16.png
-
-![railsInstall-4]
-
-[railsInstall-4]: ./assets/images/Screenshot_17.png
-
-> **Nota:** no se te olvide agregar `--no-ri --no-rdoc`.
-
-![railsInstall-5]
-
-[railsInstall-5]: ./assets/images/Screenshot_18.png
-
-> Verificamos con la instrucción `rails -v`.
-
-![railsInstall-6]
-
-[railsInstall-6]: ./assets/images/Screenshot_19.png
-
-4. Ya disponemos de un proyecto al momento de clonar este repositorio, por lo que puedes saltarte este punto.
-
-> Crearemos un proyecto de `rails` con una configuración de base de datos para `PostgreSQL`.
-
-> Con la instrucción `rails new my-app -d postgresql` en un **cmd**.
-
-![railsApp-0]
-
-[railsApp-0]: ./assets/images/Screenshot_20.png
-
-5. Entramos al proyecto con la instrucción `cd name-app` y configuramos `./config/database.yml` con el username y el password de la base de datos correspondiente, `por ejemplo`:
-
-```yml
-default: &default
-  adapter: postgresql
-  encoding: utf-8
-  pool: 5
-  username: postgres
-  password: password
-  host: localhost
-```
-
-![railsApp-1]
-
-[railsApp-1]: ./assets/images/Screenshot_21.png
-
-> **postgres** es el usuario por defecto con permisos de **Admin**, es recomendable crear uno diferente. Y en `password` debe ir el que configuraste al instalar `PostgreSQL`.
-
-6. Vamos a crear nuestra base de datos con la instrucción `rake db:create` dentro del directorio del proyecto.
-
-7. Con la instrucción `rails s` podremos ver funcionando nuestro servidor en `localhost:3000`.
-
-![railsApp-2]
-
-[railsApp-2]: ./assets/images/Screenshot_22.png
+- Formulación de cuestionario y guía de entrevistas
+- [Encuestas online](https://docs.google.com/forms/d/e/1FAIpQLSdsot1wmRGD46ARa3YwvIAklEjfI7VOVnMYm07HAD3izOiCGA/viewform)
+Se realizó encuestas que fueron enviadas a un público de alrededor 40 personas a través de internet, con la finalidad de darnos una idea de la situación actual, características de los usuarios, comportamientos financieros, preferencias, problemática, etc.
+- Entrevistas a profundidad
+![Encuesta](ux/assets/re-1.png "Encuesta")
+![Encuesta](ux/assets/re-2.png "Encuesta")
+![Encuesta](ux/assets/re-3.png "Encuesta")
+![Encuesta](ux/assets/re-4.png "Encuesta")
+![Encuesta](ux/assets/re-5.png "Encuesta")
+![Encuesta](ux/assets/re-6.png "Encuesta")
+![Encuesta](ux/assets/re-7.png "Encuesta")
+![Encuesta](ux/assets/re-8.png "Encuesta")
+![Encuesta](ux/assets/re-9.png "Encuesta")
+![Encuesta](ux/assets/re-10.png "Encuesta")
+![Encuesta](ux/assets/re-11.png "Encuesta")
+![Encuesta](ux/assets/re-12.png "Encuesta")
