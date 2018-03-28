@@ -1,18 +1,25 @@
 <p id="notice"><%= notice %></p>
 
-<p>
+<p style="margin-bottom: 100px;">
   <strong>Name:</strong>
   <%= @product.name %>
 </p>
 
-<p>
-  <strong>Url:</strong>
-  <%= @product.url %>
-</p>
+<img class="activator" src="<%= @product.url %>">
 
 <p>
   <strong>Category:</strong>
   <%= @product.category.name %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @product.amount %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @product.quantity %>
 </p>
 
 <%= link_to 'Back', products_path %>
