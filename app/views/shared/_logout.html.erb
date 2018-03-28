@@ -5,33 +5,33 @@
     </li>
   </ul>
   <nav>
-    <div class="nav-wrapper teal ">
-      <a href="#" class="brand-logo center">Logo</a>
-      <ul id=" nav-mobile" class="left ">
+    <div class="nav-wrapper white">
+      <a href="#" class="brand-logo center"><img src="https://image.ibb.co/cTRikS/logo.png" class="responsive-img" style="width:300px; padding-top:10px" alt="logo" border="0"></a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
         <% if current_user.customer? %>
           <li>
-            <a href="<%= customer_home_index_path %>">Home</a>
+            <a href="<%= customer_home_index_path %>">INICIO</a>
           </li>
           <li>
-            <a href="<%= customer_products_path %>">Products</a>
+            <a href="<%= customer_products_path %>">ROPA Y ACCESORIOS</a>
           </li>
-          <% elsif current_user.admin? %>
-            <li>
-              <a href="<%= admin_home_index_path %>">Home</a>
-            </li>
-            <li>
-              <a href="<%= admin_categories_path %>">Categories</a>
-            </li>
-            <li>
-              <a href="<%= admin_products_path %>">Products</a>
-            </li>
-            <% end%>
+        <% elsif current_user.admin? %>
+          <li>
+            <a href="<%= admin_home_index_path %>">INICIO</a>
+          </li>
+          <li>
+            <a href="<%= admin_categories_path %>">CATEGORIAS</a>
+          </li>
+          <li>
+            <a href="<%= admin_products_path %>">PRODUCTOS</a>
+          </li>
+      <% end%>
       </ul>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li>
           <a class="dropdown-button" href="#!" data-activates="dropdown1">
             <%=current_user.email %>
-              <i class="material-icons right">arrow_drop_down</i>
+            <i class="material-icons right">arrow_drop_down</i>
           </a>
         </li>
       </ul>

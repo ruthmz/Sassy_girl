@@ -1,8 +1,14 @@
-<h1>Home Admin</h1>
-
-<ul>
-  <li><%= link_to "Categories", admin_categories_path %></li>
-  <li><%= link_to "Products", admin_products_path %></li>
-  <li><%= link_to "Customers", admin_customers_path %></li>
-</ul>
+<div class="container">
+  <div class="row">
+    <div class="col s12 m4 l4 box-card">
+    <p><%= link_to "CATEGORIAS", admin_categories_path %></p>
+    </div>
+    <div class="col s12 m4 l4 box-card">
+      <%= link_to "PRODUCTOS", admin_products_path %>
+    </div>
+    <div class="col s12 m4 l4 box-card">
+      <%= link_to "CUSTOMERS", admin_customers_path %>
+    </div>
+  </div>
+</div>
 
