@@ -1,6 +1,6 @@
 
-  <div class="container-opacity">
-    <div class="bg-login">
+  <div class="">
+    <div class="">
       <div class="form-padding">
         <div class="col s12">
           <div class="cardLogin hoverable">
@@ -28,7 +28,7 @@
                 <% end -%>
                 <div class="center">
                   <br />
-                  <button id="btn-login" class="btn center ">
+                  <button id="btn-login" class="btn center btn-login">
                     <%= "Ingresar" %>
                   </button>
                 </div>
@@ -37,8 +37,10 @@
               <br>
               <div class="divider"></div>
               <br>
-              <%= render "devise/shared/links" %>
-  
+                <div class="center format-link">
+                  <%= render "devise/shared/links" %>
+                </div>
+              <br>
               </div>
             </div>
           </div>
