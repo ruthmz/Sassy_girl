@@ -7,7 +7,8 @@ module Lab
       # GET /products
       # GET /products.json
       def index
-        @products = Product.paginate(:page => params[:page], :per_page => 10)
+        @products = Product.all
+       # @products = Product.paginate(:page => params[:page], :per_page => 10)
       end
 
       # GET /products/1
