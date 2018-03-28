@@ -8,3 +8,26 @@
   display: none;
 }
 
+//Styles de show.html
+.imagenSelect {
+  width: 400px;
+  height: 500px;
+}
+
+.textDetalles {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#img-contenedor img {
+  transition:all .9s ease; 
+  width:100%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#img-contenedor:hover img {
+  transform:scale(1.25);
+}
+
+#img-contenedor {
+  overflow:hidden;
+}
