@@ -1,9 +1,21 @@
 # Sassy Girl
+Sassy Girl es un catálogo virtual de la tienda del mismo nombre. Permite realizar búsquedas de las distintas categorías de los productos que ofrece la tienda: ropa, accesorios y carteras para damas.
+Este trabajo fue realizado en equipo en una Hackaton de Laboratoria, el squad estaba compuesto por 3 frontend y 2 ux.
 
 ![image](https://user-images.githubusercontent.com/32310744/38774023-75796fb4-4022-11e8-90f3-9b3a159fc9e3.png)
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
+
+* **Reto:** _Backend_
+* **Alumnas:**  
+  * Nelida Quispe
+  * Elizabeth Alcala
+  * Margarita Sutta
+  * Nataly Cortez
+  * Ruth Matos  
+
+***
 
 ![Logo](ux/assets/logo.png "Sassy Girl")
 
