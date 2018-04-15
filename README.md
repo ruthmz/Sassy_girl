@@ -1,9 +1,14 @@
-![Logo](ux/assets/logo.png "Sassy Girl")
+# Sassy Girl
 
+![image](https://user-images.githubusercontent.com/32310744/38774023-75796fb4-4022-11e8-90f3-9b3a159fc9e3.png)
+
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
+
+![Logo](ux/assets/logo.png "Sassy Girl")
 
 ## PROBLEMA
 Las páginas de tiendas para damas no siempre tienen la información ni el stock actualizado de los productos.
-
 
 ## RETO
 Realizar una página que tengas las dos siguientes vistas:
